@@ -1,0 +1,44 @@
+1. En parejas, inventen un ejemplo de "dato" y su correspondiente "información" para un escenario real
+(clínica, tienda en línea, biblioteca, etc.), y compartan al grupo cómo cambiaría el diseño de la base 
+de datos según el contexto elegido.
+
+-Dato: 2/03/2026
+-Información: Fecha limite en el que Juan debe devolver el libro para evitar una multa.
+-Cómo cambiaría el diseño de la base de datos según el contexto
+ 1. Si se centra en el inventario, la base de datos se centraría en tablas de Libros y Autores, como también podría ser su estado físico.
+ 2. Si se enfoca en préstamos, el diseño requeriría tablas intermedias que vinculen Usuarios con Libros, incluyendo datos como "fecha de salida y fecha de retorno".
+ 3. Si se enfoca digitalmente, se usarían campos como el tipo del formato, tamaño de descarga, tipo de licencia, etc.
+
+2. completen la tabla anterior agregando al menos 1 entidad adicional (por ejemplo, Docente o Programa).
+
+Entidad   /          Posibles         /             Comentarios 
+candidata /          atributos        /              iniciales      
+---------------------------------------------------------------------------------
+          /    Número de salón        /  Sirve para saber exactamente en dónde
+ Aula     /    bloque/piso            /  se ubica el salón y cuál es su capacidad
+          /    capacidad de personas  /  para no sobrepasar el límite de alumnos.
+
+La clave principal es el número de salón, ya que es un valor único y hace que no existan dos salones con la misma identificación.
+
+3. ¿Qué pasaría si no definimos correctamente las claves de cada entidad desde el inicio?
+-Se mezclaría la información entre sí al no tener claves únicas; esto haría que fuera un caos, ya que la información
+podría contener errores y se podrían confundir datos parecidos.
+
+4.¿Qué ventajas aporta tener identificadas las entidades antes de pasar al diagrama ER formal?
+-Permite entender la relación de los datos antes de realizar el diagrama ER formal, predecir errores,
+mejora la organización de los datos.
+
+5. ¿Qué información adicional consideras crítica en un sistema académico que aún no hemos modelado?
+-Porcentajes académicos por corte 
+-Notas registradas por corte
+-Requisitos para matricular una materia
+-Asistencia
+-Horarios
+
+
+
+
+
+
+
+

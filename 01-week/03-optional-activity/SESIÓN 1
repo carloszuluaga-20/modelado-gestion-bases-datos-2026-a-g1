@@ -1,0 +1,12 @@
+¿Qué criterios usaría para decidir cuándo migrar de archivos planos a un SGBD?
+1. Datos dupliados o inconsistentes
+2. Dificultad para organizar y buscar información 
+3. Riesgo de perdida de la información
+4. Varios usuarios usando la información 
+5. Crecimiento de la Informacón 
+
+¿Qué tipo de SGBD (relacional o NoSQL) parece más adecuado para este contexto y por qué?
+Gemini said
+En este contexto, la mejor opción sería un SGBD relacional, ya que la información que se usa en una institución es de forma estructurada 
+y se relaciona de forma clara. Al implementar un SGBD relacional, se garantizaría la integridad de la información, se evitarían duplicidades 
+y se facilitaría la búsqueda de los datos, entre otros beneficios.
